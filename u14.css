@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Skranji&display=swap');
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('orange.ttf') format('truetype');
+  }
+  
+  body {
+    font-family: 'CustomFont', sans-serif;
+  }
+
+body {
+    background-color: rgb(2, 61, 63);
+    font-family: 'Skranji', cursive;
+    letter-spacing: 0.1em;
+}
+
+#baslik{
+    font-family: "CustomFont";
+  text-align: center;
+  font-size: 3em;
+  text-shadow: 5px 5px 5px rgba(0,0,0,.5) inset;
+
+}
+#greenbox {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    background-color: bisque;
+    min-height: 550px;
+    margin-top: 15vh;
+    border-radius: 10px;
+    box-shadow: 5px 10px 12px black;
+    padding:1em;
+}
+
+#wood {
+    font-family: "CustomFont";
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    overflow-wrap: normal;
+    overflow-x: auto;
+    font-size: 5em;
+    text-align: center;
+    background-color: darkslategray;
+    margin-top: 3%;
+    color:aliceblue;
+}
+
+#writingbox{
+    /*background-color: dodgerblue;*/
+    text-align: center;
+}
+
+#writingbox>input
+{
+    font-size: 2em;
+    border: teal 12px solid;
+    background-color: transparent;
+    outline: none;
+    margin: 14px;
+    text-align: center;
+    margin-top: 10px;
+    color: darkgreen;
+    text-transform: uppercase;
+    width: 2em;
+}
+#wrongbox{
+    
+    font-size: 2em;
+    color: tomato;
+    background-image: url(089-skull.svg);
+    background-repeat: no-repeat;
+    padding-left: 2em;
+    text-shadow: 5px 5px 5px black;
+    margin-left: 10px;
+}

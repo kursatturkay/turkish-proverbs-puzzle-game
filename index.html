@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="yesilkutu">
+
+        <div id="baslik">TURKISH PROVERBS PUZZLE GAME<br>
+            <span style="font-size: .5em;">
+                coded by : kursat turkay</span>
+        </div>
+
+        <div id="tahta">
+            Lüleburga_
+        </div>
+
+        <div id="yazikutusu">
+            <input type="text" name="" id="giris" maxlength="1" onkeypress="return preventNumbers(event)">
+        </div>
+
+        <div id="bilgilendiri"> Type a letter in the box and press ENTER.</div>
+
+        <div id="sifirla">
+
+            <button onclick="window.location.reload();">YENİ BAŞTAN</button>
+        </div>
+
+        <div id="yanliskutusu">
+
+        </div>
+
+        <div id="dipnot">toplam atasözü sayısı:
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+
+
+</body>
+
+<script type="text/javascript">
+    window.onload = maxWindow;
+
+    function maxWindow() {
+        window.moveTo(0, 0);
+
+        if (document.all) {
+            top.window.resizeTo(screen.availWidth, screen.availHeight);
+        }
+
+        else if (document.layers || document.getElementById) {
+            if (top.window.outerHeight < screen.availHeight || top.window.outerWidth < screen.availWidth) {
+                top.window.outerHeight = screen.availHeight;
+                top.window.outerWidth = screen.availWidth;
+            }
+        }
+    }
+</script>
+
+</html>
